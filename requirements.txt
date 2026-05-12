@@ -1,0 +1,59 @@
+# UI Components
+# PyQt6: Qt6 bindings for Python, main UI framework
+PyQt6==6.11.0
+
+# QDarkStyle: Dark theme stylesheet for PyQt applications
+QDarkStyle==3.2.3
+
+# Markdown Processing
+# Markdown: Python Markdown parser for converting markdown text
+Markdown==3.10.2
+
+# LangChain Core Packages
+# langchain: Main LangChain package for building language model pipelines
+langchain==0.3.21
+
+# langchain-community: Community plugins and extensions for LangChain
+langchain-community==0.3.20
+
+# langchain-ollama: Ollama integration plugin for LangChain
+langchain-ollama==0.3.10
+
+# Note:
+# Internal dependencies like langchain-core and langchain-text-splitters
+# are automatically managed by pip and should NOT be manually pinned here.
+
+# PDF and Document Processing
+# pypdf: PDF reading and manipulation library
+pypdf==6.11.0
+
+# Vector Search and Retrieval
+# faiss-cpu: Facebook AI similarity search (CPU version) for vector indexing
+faiss-cpu==1.13.2
+
+# rank-bm25: BM25 ranking algorithm for keyword-based retrieval
+rank-bm25==0.2.2
+
+# Right-To-Left Text Rendering Support
+# arabic-reshaper: Shapes Arabic letters properly for rendering
+arabic-reshaper==3.0.1
+
+# python-bidi: Supports bidirectional text display required for RTL languages
+python-bidi==0.6.9
+
+# HTTP Client Dependencies
+# aiohttp: Asynchronous HTTP client/server framework (used by some LangChain components)
+aiohttp==3.13.5
+
+# httpx: HTTP client for Python supporting async and sync, often used for APIs
+httpx==0.28.1
+
+# Environment Variable Management
+# python-dotenv: Loads environment variables from .env files
+python-dotenv==1.2.2
+
+# Persian Date & Utilities
+# persiantools: Utilities for Persian text, digits, and Jalali date handling
+persiantools==4.2.0
+
+pillow
